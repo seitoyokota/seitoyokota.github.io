@@ -1,0 +1,52 @@
+html {
+	background-color: silver;
+}
+
+.name {
+	font-size: 75px;
+	color: black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title {
+	background-image: url('fuji.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100%;
+	text-align: center;
+}
+
+.about {
+	background-image: url('LightGreyWallpaper.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100%;
+}
+
+.section-name {
+	font-size: 50px;
+	text-align: center;
+}
+
+.education {
+
+	background-image: url('BlueAndGreen.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100%;
+}
+
+.me {
+
+	background-image: url('nikered.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100%;
+}
