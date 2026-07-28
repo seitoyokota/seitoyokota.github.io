@@ -113,10 +113,6 @@ section {
   margin-top: 12px;
 }
 
-.experience-entry {
-  margin-bottom: 24px;
-}
-
 .entry-dates {
   color: #666;
   font-size: 0.9rem;
@@ -135,8 +131,7 @@ footer {
   margin: 16px 0;
 }
 
-.copyright {
-  color: #666;
-  font-size: 0.85rem;
-  margin-top: 24px;
+.experience-entry,
+.education-entry {
+  margin-bottom: 24px;
 }
