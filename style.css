@@ -49,6 +49,7 @@ nav {
 
 .container {
   display: flex;
+  gap: 5px;
 }
 
 .nav-links a {
