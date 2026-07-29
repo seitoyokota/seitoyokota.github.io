@@ -47,6 +47,10 @@ nav {
   gap: 32px;
 }
 
+.container {
+  display: flex;
+}
+
 .nav-links a {
   color: #fff;
   text-decoration: none;
