@@ -21,10 +21,6 @@ header {
   z-index: 1000;
 }
 
-img {
-  border-radius: 15px;
-}
-
 nav {
   display: flex;
   align-items: center;
@@ -147,6 +143,14 @@ footer {
 .experience-entry,
 .education-entry {
   margin-bottom: 24px;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 5px solid #555;
+  border-radius: 15px;
 }
 
 @media (max-width: 600px) {
