@@ -28,6 +28,7 @@ img {
 nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 100%;
   max-width: 1100px;
   margin: 0 auto;
@@ -61,6 +62,7 @@ nav {
 .nav-links a:hover {
   color: #9ecbff;
 }
+
 section {
   padding: 80px 24px;
   max-width: 1100px;
@@ -145,4 +147,54 @@ footer {
 .experience-entry,
 .education-entry {
   margin-bottom: 24px;
+}
+
+@media (max-width: 600px) {
+ 
+  header {
+    height: auto;
+    padding: 12px 0;
+  }
+ 
+  nav {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 16px;
+  }
+ 
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 20px;
+  }
+ 
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+ 
+  body {
+    padding-top: 130px;
+  }
+ 
+  section {
+    scroll-margin-top: 130px;
+    padding: 48px 16px;
+  }
+ 
+  .hero {
+    padding-top: 24px;
+  }
+ 
+  .hero-links {
+    flex-wrap: wrap;
+  }
+ 
+  .contact-links {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+ 
+  footer {
+    padding: 40px 16px;
+  }
 }
