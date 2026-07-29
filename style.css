@@ -19,6 +19,10 @@ header {
   z-index: 1000;
 }
 
+img {
+  border-radius: 15px;
+}
+
 nav {
   display: flex;
   align-items: center;
