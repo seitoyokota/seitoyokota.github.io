@@ -127,6 +127,13 @@ section {
   font-size: 0.9rem;
 }
 
+.certificate-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #1a1a1a;
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
   padding: 60px 24px;
