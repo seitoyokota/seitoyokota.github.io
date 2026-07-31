@@ -55,8 +55,8 @@ nav {
   font-size: 1rem;
 }
 
-.nav-links a:hover {
-  color: #9ecbff;
+a:hover {
+  font-weight: bold;
 }
 
 section {
