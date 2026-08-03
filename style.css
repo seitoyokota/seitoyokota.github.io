@@ -166,7 +166,7 @@ ul.dash-list li {
 }
 
 ul.dash-list li::before {
-  content: "—";          /* Inserts an em-dash (or use "-" for a hyphen) */
+  content: "-";          /* Inserts an em-dash (or use "-" for a hyphen) */
   position: absolute;    /* Prevents the dash from pushing multi-line text */
   left: 0;               /* Aligns dash perfectly to the left */
 }
