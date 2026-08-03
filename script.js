@@ -2,7 +2,7 @@
 document.querySelectorAll('.read-more-btn').forEach(button => {
   button.addEventListener('click', () => {
     // Find the extra-text element inside the same card
-    const card = button.closest('.portfolio-card');
+    const card = button.closest('.card');
     const extraText = card.querySelector('.extra-text');
     
     extraText.classList.toggle('hidden');
