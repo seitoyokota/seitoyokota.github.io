@@ -156,6 +156,10 @@ img, video {
   border-radius: 15px;
 }
 
+.hidden {
+  display: none;
+}
+
 @media (max-width: 600px) {
  
   header {
