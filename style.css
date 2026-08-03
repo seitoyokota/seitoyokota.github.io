@@ -42,6 +42,7 @@ nav {
   display: flex;
   list-style: none;
   gap: 32px;
+  text-align: center;
 }
 
 .container {
