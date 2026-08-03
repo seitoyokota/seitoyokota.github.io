@@ -16,7 +16,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90px;
+  height: 150px;
   background-color: #1a1a1a;
   z-index: 1000;
 }
@@ -157,18 +157,18 @@ img, video {
 
 ul.dash-list {
   list-style-type: none; /* Removes default bullets */
-  padding-left: 0;       /* Resets default browser indentation */
+  padding-left: 20px;       /* Resets default browser indentation */
 }
 
 ul.dash-list li {
   position: relative;    /* Sets a baseline for the dash placement */
-  padding-left: 1.5em;   /* Creates space for the dash */
+  padding-left: 8px;   /* Creates space for the dash */
 }
 
 ul.dash-list li::before {
   content: "-";          /* Inserts an em-dash (or use "-" for a hyphen) */
   position: absolute;    /* Prevents the dash from pushing multi-line text */
-  left: 0;               /* Aligns dash perfectly to the left */
+  left: -20px;               /* Aligns dash perfectly to the left */
 }
 
 @media (max-width: 600px) {
