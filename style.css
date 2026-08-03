@@ -175,13 +175,13 @@ ul.dash-list li::before {
  
   header {
     height: auto;
-    padding: 5px 0;
+    padding: 0 0;
   }
  
   nav {
     flex-direction: column;
     gap: 12px;
-    padding: 40px 16px;
+    padding: 50px 16px;
   }
  
   .nav-links {
@@ -195,7 +195,7 @@ ul.dash-list li::before {
   }
  
   body {
-    padding-top: 150px;
+    padding-top: 175px;
   }
  
   section {
